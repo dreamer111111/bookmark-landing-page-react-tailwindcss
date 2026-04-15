@@ -1,12 +1,12 @@
 import './index.css';
-import Accordion from "./features/faq/Accordion"
+import TabGroup from './features/features-tabs/TabGroup';
 
 function App() {
 
   return (
     <main>
         <h1>App</h1>
-        <Accordion />
+        <TabGroup />
     </main>
   )
 }
