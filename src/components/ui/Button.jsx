@@ -9,7 +9,7 @@ const Button = ({
     const variants = {
         primary: "bg-brand-blue text-white hover:bg-white hover:text-brand-blue border-2 border-brand-blue",
         secondary:"bg-brand-grey text-brand-dark hover:bg-white hover:border-brand-dark border-2 border-transparent",
-        danger:"bg-brand-red text-white hover:bg-white hover:text-brand-red border-2 border-brand-red",
+        danger:"bg-brand-red text-white hover:bg-white hover:text-brand-red hover:ring-2 hover:ring-brand-red",
     };
   return (
     <button

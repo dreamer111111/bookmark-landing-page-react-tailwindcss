@@ -1,8 +1,9 @@
+import React from 'react'
 
-const Logo = () => {
+const Logo = ({className=""}) => {
   return (
-    <div>
-        
+    <div className={`flex items-center ${className}`}>
+        <img src="images/logo-bookmark.svg" alt="Bookmark Logo" className='h-6 md:h-auto' />
     </div>
   )
 }
