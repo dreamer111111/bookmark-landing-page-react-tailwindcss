@@ -2,12 +2,7 @@ import { useState } from 'react';
 import Container from '../ui/Container';
 import Button from '../ui/Button';
 import Logo from '../ui/Logo'
-
-const NAV_LINKS = [
-  { label: "Features", href: "#features" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Contact", href: "#contact" },
-];
+import { NAV_LINKS } from '../../data/siteData';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

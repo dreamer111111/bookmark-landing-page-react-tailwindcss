@@ -1,12 +1,10 @@
-import Button from "./components/ui/Button"
-import Navbar from "./components/layout/Navbar"
 
 
 function App() {
 
   return (
     <main>
-      <Navbar />
+        <h1>App</h1>
     </main>
   )
 }
