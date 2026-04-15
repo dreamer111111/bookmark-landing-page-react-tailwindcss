@@ -42,3 +42,21 @@ export const FEATURES_DATA = [
     img: "/images/illustration-features-tab-3.svg",
   },
 ];
+
+export const DOWNLOAD_DATA = [
+  {
+    browser: "Chrome",
+    minVersion: "62",
+    img: "/images/logo-chrome.svg",
+  },
+  {
+    browser: "Firefox",
+    minVersion: "55",
+    img: "/images/logo-firefox.svg",
+  },
+  {
+    browser: "Opera",
+    minVersion: "46",
+    img: "/images/logo-opera.svg",
+  },
+];

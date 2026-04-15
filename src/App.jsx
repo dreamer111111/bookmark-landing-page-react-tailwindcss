@@ -1,12 +1,12 @@
 import './index.css';
-import TabGroup from './features/features-tabs/TabGroup';
+import Download from './features/downloads/Download';
 
 function App() {
 
   return (
     <main>
         <h1>App</h1>
-        <TabGroup />
+<Download />
     </main>
   )
 }
