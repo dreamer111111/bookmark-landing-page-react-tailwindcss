@@ -1,12 +1,12 @@
 import './index.css';
-import Download from './features/downloads/Download';
+import NewsLetter from './features/newsletter/NewsLetter';
 
 function App() {
 
   return (
     <main>
         <h1>App</h1>
-<Download />
+        <NewsLetter />
     </main>
   )
 }
