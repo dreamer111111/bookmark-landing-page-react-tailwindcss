@@ -31,7 +31,6 @@ Users should be able to:
 ### Screenshot
 
 ![Design Preview](./design/Screenshot-1.png)
-(./design/Screenstot-2.png)(./design/Screenstot-3.png)(./design/Screenstot-4.png)(./design/Screenstot-5.png)
 
 
 
