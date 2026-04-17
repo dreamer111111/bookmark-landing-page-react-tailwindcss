@@ -16,9 +16,16 @@
   --font-weight-regular: 400;
   --font-weight-medium: 500;
 }
+html {
+  scroll-behavior: smooth;
+}
 @layer base {
   body {
     @apply font-rubik text-[18px] text-brand-dark bg-white antialiased;
+  }
+
+  p{
+    @apply text-brand-gray-blue;
   }
 
   h1,

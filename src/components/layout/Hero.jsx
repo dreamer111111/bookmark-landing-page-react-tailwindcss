@@ -3,8 +3,8 @@ import Button from "../ui/Button";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-x-clip pt-8 pb-32 md:pt-20 md:pb-48">
-      <div className="absolute top-20 md:top-40 -right-5 bg-brand-blue w-[75%] md:w-[40%] h-52 md:h-87.5 rounded-l-full -z-10 translate-y-10" />
+    <section className="relative overflow-x-clip pt-8 pb-32">
+      <div className="absolute top-6 md:top-20 -right-5 bg-brand-blue w-[75%] md:w-[40%] h-52 md:h-80.5 rounded-l-full -z-10 translate-y-10" />
 
       <Container className="flex flex-col-reverse md:flex-row items-center gap-12">
         {/* Text Content */}

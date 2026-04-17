@@ -7,8 +7,8 @@ const TabGroup = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="py-20 relative overflow-x-clip" id="features">
-      <div className="absolute top-[75%] left-0 bg-brand-blue w-[40%] h-50 md:h-80 rounded-r-full -z-10 translate-y-[-50%]" />
+    <section className="relative overflow-x-clip" id="features">
+      <div className="absolute top-[50%] md:top-[80%] left-0 bg-brand-blue w-[80%] md:w-[42%] h-60 md:h-80 rounded-r-full -z-10 translate-y-0 md:translate-y-[-50%]" />
 
       <Container>
         {/* Header Section */}

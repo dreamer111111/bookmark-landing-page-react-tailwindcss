@@ -26,9 +26,9 @@ const NewsLetter = () => {
           <h2 className="uppercase tracking-[0.3em] text-sm mb-8">
             35,000+ already joined
           </h2>
-          <p className="text-2xl md:text-3xl font-medium mb-8 leading-tight max-w-md mx-auto">
+          <h3 className="text-2xl md:text-3xl font-medium mb-8 leading-tight max-w-md mx-auto">
             Stay up-to-date with what we’re doing
-          </p>
+          </h3>
           
           <form
             onSubmit={handleSubmit}
